@@ -1,0 +1,22 @@
+# Ignorar el directorio vendor, que contiene dependencias de Composer
+/vendor/
+
+# Ignorar los archivos de configuración de PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignorar el directorio de caché de Composer
+/composer.lock
+
+# Ignorar archivos temporales y de respaldo
+*.log
+*.swp
+*.bak
+
+# Ignorar archivos generados por editores de código
+.idea/
+.vscode/
+
+# Ignorar directorios y archivos específicos de sistema operativo
+.DS_Store
+Thumbs.db
